@@ -1,0 +1,16 @@
+html{
+  width: 100%;
+}
+body{
+  width: 100%;
+  background-color: hsl(228, 33%, 97%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+#commentwrapper{
+    border:1px solid gray ;
+    height: 20px;
+    width: 80px;
+    margin-left: 30px;
+}
+#replycomment{
+    height: 100px;
+    width: 400px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#editbtn{
+    color: hsl(238, 40%, 52%);
+    font-weight: 600;
+    background-color: white;
+}
+#motherdiv{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+}
+.datapart{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+@media (max-width: 500px){
+#replycomment{
+width:200px;
+margin-left: 90px;
+font-weight: 500;
+}
+#profilepage{
+    margin-left: 70px;
+}
+}

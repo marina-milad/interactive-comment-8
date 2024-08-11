@@ -1,0 +1,36 @@
+.sendbtn{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(88, 88, 195);
+    color: white;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.inputplace{
+    height: 150px;
+    width: 500px;
+    border: 1px solid rgb(225, 219, 219);
+    border-radius: 20px;
+    font-size: 20px;
+}
+#profilepage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.replydiv{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    border-radius: 20px;
+    background-color:white;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+@media (max-width: 500px){
+    .inputplace{
+        width: 220px;
+    }
+}

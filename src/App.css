@@ -1,0 +1,11 @@
+main{
+  height: 90%;
+  width: 55%;
+  display: flex;
+  background-color: hsl(228, 33%, 97%);
+  flex-direction: column;
+  row-gap: 15px;
+}
+@media (max-width: 500px) {
+   main{width: 95%;}
+}
